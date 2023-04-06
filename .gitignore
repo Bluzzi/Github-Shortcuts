@@ -110,3 +110,6 @@ yarn.lock
 
 # Build
 build
+
+# Config
+config
