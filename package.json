@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "description": "A collection of shortcuts for Git and GitHub commands",
   "author": "Bluzzi",
-  "bin": "dist/bin.js",
+  "bin": "dist/bin.ts",
   "scripts": {
-    "dev": "node -r @swc-node/register -r tsconfig-paths/register ./src/client.ts",
+    "dev": "node -r @swc-node/register -r tsconfig-paths/register ./src/bin.ts",
+    "build": "tsc",
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix",
     "test:unit": "vitest --ui"
