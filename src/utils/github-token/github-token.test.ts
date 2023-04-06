@@ -1,6 +1,6 @@
 import { afterAll, describe, expect, it } from "vitest";
 import { getGitHubToken, setGitHubToken } from "./github-token.util";
-import { randomUUID } from "crypto";
+import { randomUUID } from "node:crypto";
 
 const defaultContent = getGitHubToken();
 

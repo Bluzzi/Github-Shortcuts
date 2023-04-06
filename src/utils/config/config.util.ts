@@ -1,4 +1,4 @@
-import { existsSync, mkdirSync } from "fs";
+import { existsSync, mkdirSync } from "node:fs";
 import { join } from "path";
 
 const path = join(__dirname, "../../../", "config");
